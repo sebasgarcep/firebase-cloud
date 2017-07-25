@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "Customizable express server with common middleware preinstalled",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-airbnb-flow": "^1.0.2",
+    "eslint-plugin-flowtype": "^2.33.0",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "composable-middleware": "^0.3.0",
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "joi": "^10.5.2"
+  },
+  "private": true
+}
