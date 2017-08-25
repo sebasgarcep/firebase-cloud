@@ -10,9 +10,17 @@ const ServerFactory = require('firebase-cloud');
 const server = ServerFactory();
 ```
 
-### Server()
+### Server(options)
 
-returns an instance of `firebase-cloud` Server;
+returns an instance of `firebase-cloud` Server.
+
+#### options
+
+Configure the instance of `firebase-cloud`.
+
+#### options.validate
+
+Configuration passed to `joi`'s options during validation.
 
 ### Request extensions
 
